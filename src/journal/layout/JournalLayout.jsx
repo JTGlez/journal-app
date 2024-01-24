@@ -2,11 +2,10 @@
 /* eslint-disable react/prop-types */
 import { Box } from "@mui/material";
 import { Navbar } from "../components/Navbar/Navbar";
-import { Sidebar } from "../components/SideBar/SideBar";
-import { Toolbar } from "@mui/material";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from "@emotion/react";
 import { useState, useEffect } from "react";
+import { Sidebar } from "../components";
 
 const drawerWidth = 240;
 
