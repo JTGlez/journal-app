@@ -12,7 +12,7 @@ export const ImageGallery = ({ images = [] }) => {
                     <ImageListItem key={index}>
                         <img
                             srcSet={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                            src={`https://res.cloudinary.com/djjtcdrog/image/upload/v1706032632/journal/i5djlc5uinhkih4pufsw.jpg`}
+                            src={`${item}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             alt='Note images'
                             loading="lazy"
                         />
