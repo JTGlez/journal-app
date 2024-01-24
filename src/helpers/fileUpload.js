@@ -2,7 +2,8 @@
 
 export const fileUpload = async (file) => {
 
-    if (!file) throw new Error('Missing file');
+    // if (!file) throw new Error('Missing file');
+    if (!file) return null;
 
     const cloudUrl = 'https://api.cloudinary.com/v1_1/djjtcdrog/upload';
     const formData = new FormData();

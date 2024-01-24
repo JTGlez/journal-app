@@ -42,8 +42,8 @@ export const Navbar = ({ drawerWidth = 240, handleDrawerToggle }) => {
 
     return (
         <AppBar position="fixed" sx={{ width: { sm: `calc(100% - ${drawerWidth}px)` } }}>
-            <Container maxWidth="xl">
-                <Toolbar disableGutters>
+            <Container maxWidth="false" >
+                <Toolbar disableGutters >
 
                     {/* Hamburguer Icon to open and close Sidebar on mobile */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex' } }}>
