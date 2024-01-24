@@ -11,7 +11,7 @@ export const AppRouter = () => {
 
     if (!verificationDone) {
         return <CheckingAuth />;
-    }
+    } 
 
     return (
         <Routes>
