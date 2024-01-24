@@ -1,8 +1,10 @@
-# React + Vite
+# JournalApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases an app with CRUD operations using Firebase, which is part of the activities of Fernando Herrera's course 'React: De cero a experto'.
 
-Currently, two official plugins are available:
+![image](https://github.com/JTGlez/journal-app/assets/68305096/00f26cbb-0162-4f4b-aa5d-283218affae1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++ Built with Material UI.
++ Features a fully responsive design.
++ Utilizes the Redux pattern for synchronized operations between local state and Firestore.
++ Employs Cloudinary as image delivery service.
