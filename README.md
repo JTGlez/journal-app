@@ -1,6 +1,6 @@
 # JournalApp
 
-This project showcases an app with CRUD operations using Firebase, which is part of the activities of Fernando Herrera's course 'React: De cero a experto'.
+This project showcases an app with CRUD operations using Firebase, which is part of the activities in Fernando Herrera's course 'React: De cero a experto'.
 
 + Built with Material UI.
 + Features a fully responsive design.
