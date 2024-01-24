@@ -6,3 +6,5 @@ This project showcases an app with CRUD operations using Firebase, which is part
 + Features a fully responsive design.
 + Utilizes the Redux pattern for synchronized operations between local state and Firestore.
 + Employs Cloudinary as image delivery service.
+
+Link: https://journal-app-sigma-black.vercel.app/
