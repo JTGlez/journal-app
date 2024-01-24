@@ -6,6 +6,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from "@emotion/react";
 import { useState, useEffect } from "react";
 import { Sidebar } from "../components";
+import Toolbar from "@mui/material/Toolbar";
 
 const drawerWidth = 240;
 
