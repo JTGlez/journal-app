@@ -66,9 +66,9 @@ export const Navbar = ({ drawerWidth = 240, handleDrawerToggle }) => {
                         variant="h5"
                         noWrap
                         component="a"
-                        href="#app-bar-with-responsive-menu"
+                        href="/"
                         sx={{
-                            mr: 2,
+                            mr: { xs: 2, sm: -4 },
                             display: { xs: 'flex' },
                             flexGrow: 1,
                             fontFamily: 'monospace',
